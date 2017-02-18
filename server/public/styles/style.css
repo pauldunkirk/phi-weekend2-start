@@ -1,11 +1,72 @@
-#forwardButton {
-  float: right;
+
+
+body {
+    background: linear-gradient(to left, #0099F7 , #F11712);
+    text-align: center;
+    transform: scale(.8);
+    margin-top: -60px;
+    background-image: url("http://bigtoeandthejam.com/Pictures/GigPhotosKeep/phi-golden-ratio.png");
+      font-size: 24px;
+}
+main {
+  width:  900px;
+  height: 900px;
+  text-align: center;
+  background-color: #F8F8FF;
+  border-radius: 60px;
+  margin: auto;
+  border-style: groove;
+  border-width: 10px;
+  transform: scale(.9);
+  font-family: monospace;
+    font-size: 24px;
 }
 
-/*#backwardButton {
-  float:
-}*/
+
+#forwardButton {
+    padding: 20px
+    border: 1px dotted gray;
+    font-size: 24px;
+
+
+    border-radius: 60px;
+    margin: 0px;
+    border-style: groove;
+    border-width: 50px;
+}
+
+#backwardButton {
+  padding: 20px
+  border: 1px dotted gray;
+  font-size: 24px;
+
+  border-radius: 60px;
+  margin: 0px;
+  border-style: groove;
+  border-width: 50px;
+}
 
 h1 {
+  margin: 0;
   text-align: center;
+  position: relative;
+}
+.phiImages {
+    width:  500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 60px;
+    margin: 0px;
+    border-style: groove;
+    border-width: 50px;
+}
+.gitUser {
+  display: inline;
+  margin-right: 10px;
+
+}
+.shoutOut {
+  font-size: 180%;
+  margin: 0px;
 }

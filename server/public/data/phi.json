@@ -1,89 +1,107 @@
 {
 	"phirephiters": [
-    {
+		{
       "name" : "Melissa E Hare",
       "git_username" : "Melissa-Elizabeth",
-      "shoutout" : "Hi"
+      "shoutout" : "Hi",
+			"imageURL" : "https://avatars1.githubusercontent.com/u/23161008?v=3&s=460"
     },
     {
       "name" : "Chad Sundberg",
       "git_username" : "chadsundberg",
-      "shoutout" : "Celina!!  She taught me how to use two fingers to scroll in my open windows!  Oh, and I'd like to thank var taco!"
+      "shoutout" : "Celina!!  She taught me how to use two fingers to scroll in my open windows!  Oh, and I'd like to thank var taco!",
+			"imageURL" : "https://avatars3.githubusercontent.com/u/23482083?v=3&s=460"
     },
     {
       "name" : "Christine Pogatchnik",
       "git_username" : "kikipogo",
-      "shoutout" : "Everyone"
+      "shoutout" : "Everyone",
+			"imageURL" : "https://avatars0.githubusercontent.com/u/16141654?v=3&s=460"
     },
     {
       "name" : "Thomas Johander",
       "git_username" : "lopan455",
-      "shoutout" : "Yo! Thanks for that!"
+      "shoutout" : "Yo! Thanks for that!",
+			"imageURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/095/33c/07b993b.jpg"
     },
     {
       "name" : "Edmund Wippler",
       "git_username" : "edwippler",
-      "shoutout" : "Sup?"
+      "shoutout" : "Sup?",
+			"imageURL" : "https://media.licdn.com/media/AAEAAQAAAAAAAAeoAAAAJGM5NWY3NmYzLWNiZTQtNDRmYy05YTNmLTQxZDJkOTk0M2QzMA.jpg"
     },
     {
       "name" : "Jonny Holupchinski",
       "git_username" : "jonholup",
-      "shoutout" : "Yo!"
+      "shoutout" : "Yo!",
+			"imageURL" : "http://animal-dream.com/data_images/tiger/tiger8.jpg"
     },
     {
       "name" : "Catherine Jarocki",
       "git_username" : "cjaro",
-      "shoutout" : "Thank you to the internet of resources!"
+      "shoutout" : "Thank you to the internet of resources!",
+			"imageURL" : "https://avatars1.githubusercontent.com/u/19612689?v=3&s=460"
+
     },
     {
       "name" : "Kris Jensen",
       "git_username" : "kristinejensen",
-      "shoutout" : "Thank you to Luke, Kris, and Chris for being great instructors!"
+      "shoutout" : "Thank you to Luke, Kris, and Chris for being great instructors!",
+			"imageURL" : "https://media.licdn.com/media/p/2/005/058/1c9/36c8207.jpg"
     },
     {
       "name" : "Paul Dunkirk",
       "git_username" : "pauldunkirk",
-      "shoutout" : "Phi peops rock!"
+      "shoutout" : "Phi peops rock!",
+			"imageURL" : "https://avatars1.githubusercontent.com/u/19807093?v=3&s=460"
     },
     {
       "name" : "Celina",
       "git_username" : "celina",
-      "shoutout" : "Peace out!"
+      "shoutout" : "Peace out!",
+			"imageURL" : "https://avatars1.githubusercontent.com/u/58040?v=3&s=460"
     },
     {
       "name" : "Chris Stanton",
       "git_username" : "chris-stanton",
-      "shoutout" : "Peace"
+      "shoutout" : "Peace",
+			"imageURL" : "http://tcbmag.com/getattachment/037be106-8f16-4dff-bc40-81462e91d177"
     },
     {
       "name" : "Philip Curtis",
       "git_username" : "PCSailor",
-      "shoutout" : "Thanks to Luke and Kris, and Chris, Scott, & Fred"
+      "shoutout" : "Thanks to Luke and Kris, and Chris, Scott, & Fred",
+			"imageURL" : "https://avatars2.githubusercontent.com/u/22984498?v=3&s=460"
     },
     {
       "name" : "Sam Velie",
       "git_username" : "samvelie",
-      "shoutout" : "Love y'all "
+      "shoutout" : "Love y'all ",
+			"imageURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfwAAAAJGQxMjcyNDcxLTJkYzktNDFjMC1hYzQ1LTBiMWU3NmNmYjRhOA.jpg"
     },
     {
       "name" : "Paige Bystrom",
       "git_username" : "Radmint",
-      "shoutout" : "Thanks to Phi cohort for being awesome, positive people! "
+      "shoutout" : "Thanks to Phi cohort for being awesome, positive people! ",
+			"imageURL" : "https://avatars3.githubusercontent.com/u/23347804?v=3&s=460"
     },
     {
       "name" : "Jeremy Leif",
       "git_username" : "JL-golf14",
-      "shoutout" : "break down the Phirewalls of doubt!!!"
+      "shoutout" : "break down the Phirewalls of doubt!!!",
+			"imageURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAdZAAAAJGQ1NmE1ODdhLTRhZWQtNGM3MS05NzViLTljODdhNDZmNGFmNA.jpg"
     },
     {
       "name" : "Kris Szafranski",
       "git_username" : "kdszafranski",
-      "shoutout" : "Thank you to Phi for your open, warm, and thoughtful speeches. You rekindle my faith in humanity!"
+      "shoutout" : "Thank you to Phi for your open, warm, and thoughtful speeches. You rekindle my faith in humanity!",
+			"imageURL" : "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANLAAAAJGVmOTljZDA5LTk0NWUtNDlmOC1hNzg0LWViOWU4NjZjMTc3Ng.jpg"
     },
     {
       "name" : "Luke Schlangen",
       "git_username" : "lukeschlangen",
-      "shoutout" : "Huge thanks to everyone in Phi for sharing such personal and inspiring stories about change."
+      "shoutout" : "Huge thanks to everyone in Phi for sharing such personal and inspiring stories about change.",
+			"imageURL" : "https://media.licdn.com/media/AAEAAQAAAAAAAAdiAAAAJDk0MWZkMWNlLTJiNTktNGMzYi1hYjk3LTUzNzJkNWJjMTRkYg.jpg"
     }
   ]
 }

@@ -30,9 +30,9 @@ $(document).ready(function(){
        }); // end of back click
 
         function appendDom(){  //function appends Dom with 0 index of phirephiters array:  .name .git.shoutout
-        $("#dataContainer").append('<h2>' + data.phirephiters[i].name + '</h2>');
-        $("#dataContainer").append('<h2>' + data.phirephiters[i].git_username + " " + '</h2>');
-        $("#dataContainer").append('<h2>'  + data.phirephiters[i].shoutout + '</h2>');
+        $("#dataContainer").append('<h2 class="gitUser">' + data.phirephiters[i].name + '</h2>' + '<p class="gitUser">' + data.phirephiters[i].git_username + '</p>');
+        $("#dataContainer").append('<h2 class="shoutOut">'  + data.phirephiters[i].shoutout + '</h2>');
+        $("#dataContainer").append('<img class="phiImages" src="' + data.phirephiters[i].imageURL + '"/>')
       }//end of appendDom
 
       // $('#forwardButton').on('click', function (){
