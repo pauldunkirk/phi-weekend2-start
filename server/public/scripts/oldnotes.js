@@ -9,24 +9,27 @@ $(document).ready(function(){
     $.ajax({
       type: "GET",
       url: "/data",
-      success: function(data){
-        i = 7;
+      success: function(data){ //only have access to this data one time? // we now have the phirephiters array of objects
+        // for (var i = 0; i < data.phirephiters.length; i++) { // loop through phirephiters array data
+        // storeData = data.phirephiters[i];  // call/populate the storeData function with phirephiters as data, 1 index at a time
+        // storeData = data; // went a different way - couldn't get var outside of this success function other than populating a function like example, but that was called at each index for full array and couldn't figure out how to not do that
+        console.log(data); // got that phirephiters array of objects
+        // i = 0; // start at 0; eventually add randomizer here
+        // console.log(data.phirephiters[i]); // first object in phirephiters array is object Melissa
+        // console.log(data.phirephiters[i].name); // first name in array is name Melissa
+
+        i = 0;
       $('#forwardButton').on('click', function (){
         $("#dataContainer").empty();
-        i++;
-        if (i == 17) {
-          i=0;
-        } // end of if reset
         appendDom();
+        i++;
       }); // end of forward click
+
 
        $('#backwardButton').on('click', function (){
          $("#dataContainer").empty();
-         i--;
-         if (i < 0) {
-           i=16;
-         } // end of if reset
-         appendDom();
+         i--; // if i comes in as 1, it should go back to 0 before appending DOM
+         appendDom(); // should call appendDom with 0 but needs extra click
        }); // end of back click
 
         function appendDom(){  //function appends Dom with 0 index of phirephiters array:  .name .git.shoutout
