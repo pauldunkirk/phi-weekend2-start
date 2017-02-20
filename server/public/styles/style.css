@@ -12,7 +12,7 @@ body {
 }
 main {
   width:  900px;
-  height: 900px;
+  height: 950px;
   text-align: center;
   background-color: #F8F8FF;
   border-radius: 60px;
@@ -23,18 +23,19 @@ main {
   font-family: monospace;
   font-size: 20px;
 }
-/*#forwardButton: hover{}*/
 
 #forwardButton {
     padding: 20px
     border: 1px dotted gray;
     font-size: 24px;
-
-
     border-radius: 60px;
     margin: 0px;
     border-style: groove;
     border-width: 50px;
+}
+
+#forwardButton:hover{
+  background-color: #ffffff;
 }
 
 #backwardButton {
@@ -48,8 +49,9 @@ main {
   border-width: 50px;
 }
 
-/*#backwardButton:hover{
-}*/
+#backwardButton:hover{
+  background-color: #ffffff;
+}
 
 
 
@@ -80,8 +82,8 @@ h1 {
 
 
 /*below from w3 schools to style spans as circles (border-radius 50%) rather than boxes*/
-/*.dot {
- I THINK text-align: center is needed
+.dot {
+  text-align: center;
   cursor:pointer;
   height: 13px;
   width: 13px;
@@ -94,4 +96,4 @@ h1 {
 
 .active, .dot:hover {
   background-color: #717171;
-}*/
+}
