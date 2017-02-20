@@ -10,14 +10,13 @@ $(document).ready(function(){
 
       currentIndex = 8; // starts at me!
 
-
       $('#forwardButton').on('click', function (){
         $('.phiImages').fadeOut(500, function(){ //
           $("#dataContainer").empty();
           // $("#dotsDiv").empty();
           currentIndex++;
           if (currentIndex == data.phirephiters.length) {
-            currentIndex=0;
+            currentIndex = 0;
           } // end of if reset
           appendDom();
           appendDot();
@@ -28,6 +27,7 @@ $(document).ready(function(){
         $('.phiImages').fadeOut(500, function(){
           $("#dataContainer").empty();
           // $("#dotsDiv").empty();
+
           currentIndex--;
           if (currentIndex < 0) {
             currentIndex=data.phirephiters.length-1;
@@ -49,11 +49,12 @@ $(document).ready(function(){
       function appendDot(){
         $("#dotsDiv").empty();
         for (var i = 0; i < data.phirephiters.length; i++) {
-          $('#dotsDiv').append('<span class="dot"></span>');
+
           if (i == currentIndex) {
-            $('.dot').html('<span class="active"></span>');
-            console.log(currentIndex);
-          } //end of if
+            $('#dotsDiv').append('<span class="dot active"></span>');
+          } else {
+            $('#dotsDiv').append('<span class="dot"></span>');
+          }
         } //end of for loops
       } //end of appendDot
 
