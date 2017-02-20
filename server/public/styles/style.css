@@ -85,8 +85,8 @@ h1 {
 .dot {
   text-align: center;
   cursor:pointer;
-  height: 13px;
-  width: 13px;
+  height: 30px;
+  width: 30px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -96,4 +96,6 @@ h1 {
 
 .active {
   background-color: #717171;
+  height: 35px;
+
 }

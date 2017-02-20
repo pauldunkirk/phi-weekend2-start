@@ -12,6 +12,7 @@ $(document).ready(function() {
             currentIndex = 8; // starts at me!
 
             startTimer();
+
             function startTimer() {
               interval = setInterval(moveForward, 2000);
             }
